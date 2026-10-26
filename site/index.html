@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17130f">
+  <meta name="description" content="关注 Tibo 的 Codex 额度重置公告，查看最新消息、完成确认和历史记录。Xiasr 的博客工具。">
+  <link rel="canonical" href="https://codex.xiasr.eu.cc/">
+  <title>Codex 重置动态 · Xiasr</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23e5ae3d'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='48' font-family='monospace' font-weight='bold' fill='%2317130f'%3E↻%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Codex 重置动态首页"><span class="brand-mark" aria-hidden="true">↻</span><span>Codex Resets<small>BY XIASR</small></span></a>
+      <nav class="header-links" aria-label="主导航">
+        <a href="https://xiasr.eu.cc/" class="blog-link">返回博客 <span aria-hidden="true">↗</span></a>
+        <a class="icon-button" href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer" aria-label="在 X 查看 Tibo">𝕏</a>
+        <button class="icon-button" id="theme-toggle" aria-label="切换浅色模式" title="切换明暗模式">☀</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="intro">
+        <h1>Codex 额度重置动态<span class="ink-dot">.</span></h1>
+        <p>关注 <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a> 的重置公告，把等待的时间留给创造。</p>
+      </div>
+      <div class="toolbar">
+        <div class="feed-health"><span class="status-dot" id="health-dot"></span><span id="health-label" role="status" aria-live="polite">正在读取公告…</span><button id="refresh" class="text-button" aria-label="刷新已发布的数据">刷新 ↻</button></div>
+        <div class="segmented" role="group" aria-label="显示时区"><button data-zone="America/Los_Angeles" aria-pressed="false">Tibo 时间</button><button data-zone="Asia/Shanghai" class="active" aria-pressed="true">北京时间</button></div>
+      </div>
+
+      <section class="hero panel" aria-labelledby="latest-heading">
+        <div class="hero-top"><h2 class="eyebrow" id="latest-heading">最近一条 CODEX 重置公告</h2><span class="badge" id="latest-badge">读取中</span></div>
+        <div class="hero-main"><div><p class="big-time" id="latest-relative">—</p><p class="hero-date" id="latest-date">等待数据</p></div><a class="source-button" id="latest-source" href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">查看原帖 <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-note" id="latest-note">显示的是公告发布时间，个人额度请以账号内显示为准。</p>
+      </section>
+
+      <a class="challenge panel" id="challenge" href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer"><span class="day-sticker" id="challenge-day">28</span><div><h2>Tibo 的 28 天挑战</h2><p id="challenge-description">每天一次改进，或者一次重置。</p></div><span class="challenge-arrow" aria-hidden="true">↗</span></a>
+
+      <section class="stats" aria-label="已收录公告统计"><div class="stat-card yellow"><h2>已收录重置公告</h2><p id="stat-count">—</p></div><div class="stat-card pink"><h2>平均公告间隔</h2><p id="stat-average">—</p></div><div class="stat-card blue"><h2>最长公告间隔</h2><p id="stat-longest">—</p></div></section>
+      <p class="coverage" id="coverage">统计仅包含已抓取并识别的公告，不代表全部重置历史。</p>
+
+      <section class="history-section" aria-labelledby="history-heading">
+        <div class="section-heading"><h2 id="history-heading">重置公告日历</h2><span class="small-label">最近 180 天</span></div>
+        <div class="panel heatmap-panel"><div class="heatmap-scroll" tabindex="0" aria-label="公告日历，可左右滚动"><div class="month-row" id="months"></div><div class="calendar-layout"><div class="weekdays" aria-hidden="true"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div><div id="heatmap" class="heatmap"></div></div></div><div class="calendar-footer"><p>点选日期，查看当日公告</p><div class="legend"><span><i class="sample regular"></i>重置公告</span><span><i class="sample reserve"></i>备用额度</span><span><i class="sample"></i>无记录</span><span><i class="sample unknown"></i>未采集</span></div></div></div>
+      </section>
+
+      <section class="announcements" aria-labelledby="announcements-heading">
+        <div class="section-heading"><div><h2 id="announcements-heading">Codex 重置公告</h2><p>每条消息，都能回到原帖。</p></div><button class="text-button" id="clear-filter" hidden>显示全部 ×</button></div>
+        <div id="feed" aria-live="polite"><div class="empty panel">正在读取公告记录…</div></div>
+        <button class="load-more panel" id="load-more" hidden>查看更多公告 ↓</button>
+      </section>
+      <aside class="notice panel"><span aria-hidden="true">ⓘ</span><div><h2>关于这些记录</h2><p>从 Tibo 的公开 X 帖子自动识别。只有关联到明确完成说明的公告才标记“已确认完成”；发帖时间不等于实际到账时间。</p><p>计划每 15 分钟检查一次，发布可能延迟。抓取失败时保留旧数据并提示。没有记录不代表当天一定没有重置。</p></div></aside>
+      <noscript><p class="panel empty">请启用 JavaScript 查看动态数据。也可以直接<a href="https://x.com/thsottiaux">查看 Tibo 的原帖</a>。</p></noscript>
+    </main>
+
+    <footer><a href="https://xiasr.eu.cc/">Xiasr 的博客</a><span>·</span><a href="https://github.com/xiasrli/codex-resets" target="_blank" rel="noopener noreferrer">源代码</a><span>·</span><a href="./data/feed.json" target="_blank" rel="noopener">数据</a><p>数据：Tibo on X · 通过 FxTwitter 读取 · 非 OpenAI 官方站点</p><p class="design-credit">布局参考 <a href="https://codex-resets.com/zh-CN" target="_blank" rel="noopener noreferrer">Codex Resets</a></p></footer>
+  </div>
+</body>
+</html>

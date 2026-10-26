@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "author": "thsottiaux",
+  "status": "ok",
+  "checkedAt": "2026-10-26T11:56:13.527Z",
+  "lastSuccessAt": "2026-10-26T11:56:13.527Z",
+  "latestSourcePostAt": "2026-10-26T05:48:30.000Z",
+  "coverageStartAt": "2026-08-25T18:19:29.000Z",
+  "challenge": {
+    "day": 21,
+    "url": "https://x.com/thsottiaux/status/2114588174249071102",
+    "publishedAt": "2026-10-26T05:21:22.000Z"
+  },
+  "events": [
+    {
+      "id": "2114588174249071102",
+      "text": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+      "publishedAt": "2026-10-26T05:21:22.000Z",
+      "url": "https://x.com/thsottiaux/status/2114588174249071102",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2114200152701575656",
+      "text": "Day 20/ Rest and reset",
+      "publishedAt": "2026-10-25T03:39:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "parentId": null,
+      "quoteId": null,
+      "status": "confirmed",
+      "kind": "regular",
+      "confirmedAt": "2026-10-25T06:06:16.000Z",
+      "confirmationUrl": "https://x.com/thsottiaux/status/2114237083652882932",
+      "confirmationText": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too."
+    },
+    {
+      "id": "2113492187770175603",
+      "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
+      "publishedAt": "2026-10-23T04:46:19.000Z",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2112432076767289678",
+      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "publishedAt": "2026-10-20T06:33:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "parentId": null,
+      "quoteId": "2112268918681485431",
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2111492673890824348",
+      "text": "Day 13/ Le limit reset",
+      "publishedAt": "2026-10-17T16:20:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2110595484180214059",
+      "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "publishedAt": "2026-10-15T04:55:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2109873287853707513",
+      "text": "What would you like with your side of reset? It's done.",
+      "publishedAt": "2026-10-13T05:06:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "parentId": null,
+      "quoteId": "2109812360596865224",
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2109812360596865224",
+      "text": "Global reset landing by EOD PST time. Enjoy",
+      "publishedAt": "2026-10-13T01:03:59.000Z",
+      "url": "https://x.com/thsottiaux/status/2109812360596865224",
+      "parentId": "2109812216212099456",
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2109812216212099456",
+      "text": "Day 8/ Reset",
+      "publishedAt": "2026-10-13T01:03:25.000Z",
+      "url": "https://x.com/thsottiaux/status/2109812216212099456",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2109045392684032299",
+      "text": "Global reset by EOD. May the tokens do good things for you.",
+      "publishedAt": "2026-10-10T22:16:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2109045392684032299",
+      "parentId": "2109045220411351517",
+      "quoteId": null,
+      "status": "confirmed",
+      "kind": "regular",
+      "confirmedAt": "2026-10-11T04:01:09.000Z",
+      "confirmationUrl": "https://x.com/thsottiaux/status/2109132167112782291",
+      "confirmationText": "Put the reset in the bag. All propagated."
+    },
+    {
+      "id": "2109045220411351517",
+      "text": "Day 6/ Reset",
+      "publishedAt": "2026-10-10T22:15:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2107913674593644711",
+      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "publishedAt": "2026-10-07T19:19:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "parentId": null,
+      "quoteId": "2107575657014468879",
+      "status": "announced",
+      "kind": "reserve"
+    },
+    {
+      "id": "2107578625419866469",
+      "text": "Four updates or a reset. Or both. How was day 2.",
+      "publishedAt": "2026-10-06T21:07:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2107578625419866469",
+      "parentId": null,
+      "quoteId": "2107576143285219799",
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2106131810921136451",
+      "text": "Reset all propagated. Enjoy.",
+      "publishedAt": "2026-10-02T21:18:48.000Z",
+      "url": "https://x.com/thsottiaux/status/2106131810921136451",
+      "parentId": null,
+      "quoteId": "2105843926221660585",
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2103911959544610829",
+      "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
+      "publishedAt": "2026-09-26T18:17:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2103911959544610829",
+      "parentId": null,
+      "quoteId": null,
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2103637477760311522",
+      "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
+      "publishedAt": "2026-09-26T00:07:13.000Z",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "parentId": null,
+      "quoteId": "2103622639386574979",
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2098685367058612394",
+      "text": "Reset all propagated. Sweet dreams.",
+      "publishedAt": "2026-09-12T08:09:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "parentId": null,
+      "quoteId": "2098612714704891959",
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2097174560412246215",
+      "text": "All reset for everyone. Enjoy the week with Astra.",
+      "publishedAt": "2026-09-08T04:05:53.000Z",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "parentId": null,
+      "quoteId": "2097043464538264003",
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2094252447271366730",
+      "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.\n\nSee you soon for more news from The Reset Company.",
+      "publishedAt": "2026-08-31T02:34:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "parentId": null,
+      "quoteId": "2093811840258293947",
+      "status": "confirmed",
+      "kind": "regular"
+    },
+    {
+      "id": "2094144275957350900",
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST. \n\nI challenge you to burn as much usage as you can and discover and the latest awesome features. \n\nTime to go /fast",
+      "publishedAt": "2026-08-30T19:24:37.000Z",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    },
+    {
+      "id": "2093801758665715784",
+      "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+      "publishedAt": "2026-08-29T20:43:34.000Z",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784",
+      "parentId": null,
+      "quoteId": null,
+      "status": "announced",
+      "kind": "regular"
+    }
+  ]
+}
