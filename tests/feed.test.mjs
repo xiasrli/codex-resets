@@ -8,6 +8,7 @@ test("ignore unrelated resets, negation and other authors", () => {
   for (const text of ["Please reset your password", "No reset today", "Changing reasoning no longer resets the cache", "New prompt presets for Codex", "People are asking me for resets on the street", "The day we reach perfection it will be resets from there onwards", "Over the next 28 days, ship an improvement or a reset"]) assert.equal(classify(text), null);
   assert.equal(normalizePost(post("2114588174249071102", "reset day", { author: { screen_name: "another", id: AUTHOR_ID } }), now.getTime()), null);
   assert.equal(classify("Day 21/ But today is a reset.").status, "announced");
+  assert.equal(classify("Day 17/ Bet you thought we forgot, but no, it’s reset day today.").status, "announced");
 });
 
 test("a nested quoted completion updates one announcement, without double counting", () => {

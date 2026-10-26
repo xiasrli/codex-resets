@@ -20,7 +20,7 @@ export function normalizePost(raw, now = Date.now()) {
 export function classify(text) {
   if (!/\breset(?:s|ting)?\b/i.test(text)) return null;
   if (/asking me for resets|the day we reach perfection|over the next 28 days|didn.t get the reset|not fully applying/i.test(text)) return null;
-  if (/\b(?:no|not|never|won't|isn't|aren't|didn't|don't|doesn't)\b[^.!?\n]{0,35}\breset/i.test(text) ||
+  if (/\b(?:no|not|never|won't|isn't|aren't|didn't|don't|doesn't)\b[^.!?,;\n]{0,35}\breset/i.test(text) ||
       /\breset(?:ting)?\s+(?:my\s+|your\s+|the\s+)?(?:password|router|cache|context|session|computer|settings)\b/i.test(text)) return null;
   if (!/\bcodex\b|\b(?:quota|limits?|reserve|weekly|day\s*\d+)\b/i.test(text) && text.length > 120) return null;
   const status = /\b(?:have|has|just)\s+(?:now\s+|been\s+)?reset\b|\ball\s+propagated\b|\ball reset for everyone\b|\bit.s done\b|\b(?:limits?|quotas?)\s+(?:are|were)\s+(?:now\s+)?reset\b|\breset\s+(?:is\s+)?(?:complete|completed|done)\b/i.test(text)
